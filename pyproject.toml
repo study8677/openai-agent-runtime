@@ -1,7 +1,7 @@
 [project]
-name = "openai-agents"
+name = "openai-agent-runtime"
 version = "0.7.0"
-description = "OpenAI Agents SDK"
+description = "Agent Runtime for OpenAI Agents SDK"
 readme = "README.md"
 requires-python = ">=3.9"
 license = "MIT"
@@ -31,8 +31,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://openai.github.io/openai-agents-python/"
-Repository = "https://github.com/openai/openai-agents-python"
+Homepage = "https://github.com/study8677/openai-agent-runtime"
+Repository = "https://github.com/study8677/openai-agent-runtime"
 
 [project.optional-dependencies]
 voice = ["numpy>=2.2.0, <3; python_version>='3.10'", "websockets>=15.0, <16"]

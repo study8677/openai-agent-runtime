@@ -149,3 +149,7 @@ cython_debug/
 
 # Redis database files
 dump.rdb
+
+# Agent Runtime Data
+.runtime_*/
+.last_run_id
