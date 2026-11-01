@@ -100,7 +100,7 @@ jobs:
       - name: Run Codex labeling
         id: run_codex
         if: ${{ (github.event_name == 'workflow_dispatch' || steps.pr.outputs.is_fork != 'true') && github.actor != 'dependabot[bot]' }}
-        uses: openai/codex-action@086169432f1d2ab2f4057540b1754d550f6a1189
+        uses: openai/codex-action@bdf19a4a223ec2549a3e2274a0cf61556bc07675
         with:
           openai-api-key: ${{ secrets.PROD_OPENAI_API_KEY }}
           prompt-file: .github/codex/prompts/pr-labels.md
